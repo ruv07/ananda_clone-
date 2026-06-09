@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> destination</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body{
+        overflow-x: hidden;
+    }
+.gri{
+   height: 4000px;
+    max-width: 100%;
+    display  : grid ;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+
+.foot{
+      height: 900px;
+      max-width: 100%;
+      background-color:  #111315;
+      opacity: 98%;
+    }
+    .in1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      position: relative;
+      margin-left: 350px;
+      
+      
+    }
+    .in2{
+      color: white;
+      position: relative;
+      margin-top: 100px;
+    }
+    .in3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      position: relative;
+      margin-top: 100px;
+      margin-left: 350px;
+    }
+    .in4{
+      color: white;
+    }
+    #in{
+      height: 100px;
+      width: 200px;
+      border-radius: 30px;
+      
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .gal{
+      background-image: url("g4.jpg");
+      height: 50px;
+      width: 50px;
+      background-size: cover;
+      background-position: centre;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+    }
+    .imgal
+    {
+      display: grid;
+      grid-template-columns: 0.6fr 0.6fr 0.6fr ;
+      position: relative;
+      height: 150px;
+      width: 200px;
+      overflow: hidden;
+    }
+    .head{
+        background: linear-gradient( rgba(0,0,0,0.6) , rgba(0,0,0,0.6) ) , url("head.jpg");
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        
+       
+    }
+    #tli{
+        
+        position: absolute;
+        padding-left: 600px;
+        color: white;
+        padding-top: 120px;
+        font-size: 90px;
+    }
+    .card{
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        
+        position: relative; 
+         overflow: hidden;
+
+
+    }
+    .imag{
+       height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        filter: brightness(70%);
+        transition: transform 0.2s ease-out;
+        overflow: hidden;
+
+    }
+    .imag:hover{
+       transform: scale(1.12);
+    }
+    .ele{
+           display: flex;
+      width: 380px;
+      padding-left: 10px;
+           justify-content: space-between;
+           margin-top: -110px;
+           
+            
+    }
+    .tex{
+        color: white;
+           font-size: 20px;
+           z-index: 20;
+          
+    }
+    .tour
+    {
+        background-color: rgb(239, 123, 29);
+        color: #111315;
+        height: 50px;
+        width: 80px;
+        border: none;
+        border-radius: 20px;
+       right: 20px;
+       margin-top: 20px;
+       z-index: 20;
+    }
+   
+    .det{
+     display: flex;
+     margin-left: 40px;
+     margin-top: 90px;
+     height: 70px;
+     margin-left: 100px;
+     
+    }
+</style>
+<body>
+
+    <div class="head"> <h1 id="tli"> Destinations </h1> </div>
+
+    <div class="det">  <input type="text" style="width: 70%; height: 40px; display: flex; justify-content: space-around;  border: 2px solid brown; border-radius: 20px;" placeholder=" Search Destinations... eg. Goa , Delhi">
+      <div style=" height: 60px; width: 100px; border-radius: 10px; background-color: #f7921f; color: white; display: absolute; overflow: hidden; justify-content: center; margin-top:
+        -7px ;" >  <button style=" background-color: #f7921f; border: none; padding-top: 20px; padding-left: 10px; "><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button></div>
+          
+        <div style=" height: 60px; width: 100px; border-radius: 10px; background-color: #d5d4d2; color: white; display: absolute; overflow: hidden; justify-content: center; margin-top:
+        -7px ;  margin-left: 20px;" >  <button style=" background-color: #d5d4d2; border: none; padding-top: 20px; padding-left: 40px; ">Clear</button></div>
+          
+    </div>
+      
+    <div class="gri">
+         <div class="card" > <img src="haryana.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Haryana</h1> </span> <button class="tour">3tours</button></div></div>
+            <div class="card" > <img src="delhi.jpeg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Delhi</h1> </span> <button class="tour">3tours</button></div></div>
+           <div class="card" > <img src="bihar.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Bihar</h1> </span> <button class="tour">3tours</button></div></div>
+              <div class="card" > <img src="jharkhand.jpeg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Jharkhand</h1> </span> <button class="tour">3tours</button></div></div>
+                 <div class="card" > <img src="gujrat.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Gujrat</h1> </span> <button class="tour">3tours</button></div></div>
+                    <div class="card" > <img src="uttrakhand.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Uttrakhand</h1> </span> <button class="tour">3tours</button></div></div>
+                       <div class="card" > <img src="madhyapradesh.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px;">Madhyapradesh</h1> </span> <button class="tour">3tours</button></div></div>
+                          <div class="card" > <img src="kerala.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Kerala</h1> </span> <button class="tour">3tours</button></div></div>
+                             <div class="card" > <img src="maharastra.jpeg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px; ">Maharashtra</h1> </span> <button class="tour">3tours</button></div></div>
+                                <div class="card" > <img src="goa.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Goa</h1> </span> <button class="tour">3tours</button></div></div>
+                                   <div class="card" > <img src="andhrapradesh.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 23px; ">Andharapradesh</h1> </span> <button class="tour">3tours</button></div></div>
+                                     <div class="card" > <img src="assam.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Assam</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                      <div class="card" > <img src="arunachal pradesh.avif" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px; ">Arunachal Pradesh</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                       <div class="card" > <img src="chhattisgarh.webp" alt="chattis" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Chattisgarh</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                        <div class="card" > <img src="himachalpradesh.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px; ">Himachal Pradesh</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                         <div class="card" > <img src="manipur.avif" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Manipur</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                          <div class="card" > <img src="karnataka.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Karnataka</h1> </span> <button class="tour">3tours</button></div></div>
+
+                                           <div class="card" > <img src="meghalaya.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Meghalya</h1> </span> <button class="tour">3tours</button></div></div>
+   
+                                   <div class="card" > <img src="mizoram.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Mizoram</h1> </span> <button class="tour">3tours</button></div></div>
+                                    <div class="card" > <img src="nagaland.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Nagaland</h1> </span> <button class="tour">3tours</button></div></div>
+                                     <div class="card" > <img src="odisha.jpeg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Odisha</h1> </span> <button class="tour">3tours</button></div></div>
+                                      <div class="card" > <img src="punjab.webp" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Punjab</h1> </span> <button class="tour">3tours</button></div></div>
+                                       <div class="card" > <img src="rajasthan.jpeg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Rajasthan</h1> </span> <button class="tour">3tours</button></div></div>
+                                        <div class="card" > <img src="sikkim.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Sikkim</h1> </span> <button class="tour">3tours</button></div></div>
+                                         <div class="card" > <img src="tamilnadu.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px;">Tamil Nadu</h1> </span> <button class="tour">3tours</button></div></div>
+                                         <div class="card" > <img src="telangana.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Telangana</h1> </span> <button class="tour">3tours</button></div></div>
+                                         <div class="card" > <img src="tripura.jpg" alt="tripur" class="imag"> <div class="ele"><span class="tex">Travel to <h1>Tripura</h1> </span> <button class="tour">3tours</button></div></div>
+                                         <div class="card" > <img src="uttarpradesh.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px;">Uttarpradesh</h1> </span> <button class="tour">3tours</button></div></div>
+                                         <div class="card" > <img src="westbengal.jpg" alt="" class="imag"> <div class="ele"><span class="tex">Travel to <h1 style="font-size: 30px;">West Bengal</h1> </span> <button class="tour">3tours</button></div></div>
+
+
+
+    </div>
+
+
+    <div style="height: 200px; max-width: 100% ;"> <img src="foot.png" alt=""> </div>
+    <div class="foot">
+<div class="in1">
+  <div class = "in2"> <h3>Location</h3> <br>
+  Ananda Holidays F-18, <br>
+Swarn Plaza, Block A,<br>
+Swarn Nagari, Greater Noida, 201310
+  </div>
+  <div class = "in2"><h3>Phone </h3> <br>
+
++91 9810611011 <br>
++91 9810611011 </div>
+  <div class ="in2"> <h3>Mail Us </h3> <br>
+anandaholidayssales@gmail.com <br>
+anandaholidayssales@gmail.com</div>
+</div>
+
+<div class="in3">
+  <div class="in4">
+    <img src="an.jpeg" alt="ananda" id="in"> <br>
+    Welcome to Ananda Holidays, your <br> ultimate gateway to unforgettable <br>
+     adventures. We specialize in curating the <br>
+      best travel experiences across the globe, <br>
+       ensuring you create lifelong memories.
+  </div>
+  <div class="in4">
+    <h4>Quick Links</h4> <br>
+    <a href="#">Home</a> <br> <br>
+    <a href="#">About Us</a> <br> <br>
+    <a href="#">Tours</a> <br> <br>
+    <a href="#">Destinations</a> <br> <br>
+    <a href="#">Contact</a><br> <br>
+  </div>
+  <div class="in4">
+     <h4>Popular Tours</h4> <br>
+     <a href="#">Do Dham Yatra</a><br> <br>
+    <a href="#">Char Dham Yatra</a> <br> <br>
+    <a href="#">Muktinath Yatra</a> <br> <br>
+    <a href="#">Pashupatinath Yatra</a><br> <br>
+    <a href="#">Jagannath Puri Darshan</a> <br> <br>
+  </div >
+  <div class="in4"> <h4>Gallery Post</h4> <br>
+     <div class = "imgal">
+      <div class="gal"></div>
+       <div class="gal"></div>
+        <div class="gal"></div>
+         <div class="gal"></div>
+          <div class="gal"></div>
+          <div class="gal"></div>
+     </div>
+     
+  </div>
+</div>
+</div>
+</body>
+</html>

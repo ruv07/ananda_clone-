@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Us </title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body{
+        overflow-x: hidden;
+    }
+
+
+
+.foot{
+      height: 900px;
+      max-width: 100%;
+      background-color:  #111315;
+      opacity: 98%;
+    }
+    .in1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      position: relative;
+      margin-left: 350px;
+      
+      
+    }
+    .in2{
+      color: white;
+      position: relative;
+      margin-top: 100px;
+    }
+    .in3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      position: relative;
+      margin-top: 100px;
+      margin-left: 350px;
+    }
+    .in4{
+      color: white;
+    }
+    #in{
+      height: 100px;
+      width: 200px;
+      border-radius: 30px;
+      
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .gal{
+      background-image: url("g4.jpg");
+      height: 50px;
+      width: 50px;
+      background-size: cover;
+      background-position: centre;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+    }
+    .imgal
+    {
+      display: grid;
+      grid-template-columns: 0.6fr 0.6fr 0.6fr ;
+      position: relative;
+      height: 150px;
+      width: 200px;
+      overflow: hidden;
+    }
+    .head{
+        background: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url("head.jpg");
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        
+       
+    }
+    #tli{
+        
+        position: absolute;
+        padding-left: 600px;
+        color: white;
+        padding-top: 120px;
+        font-size: 90px;
+    }
+    .cl1{
+      height: 900px;
+      max-width: 100%;
+      display: flex;
+    }
+    .cl2{
+      height: 900px;
+      width: 600px;
+    }
+    #cl3{
+       border-radius: 20px;
+  
+      background-image: url("tour1.jpg");
+      height: 550px;
+      width: 600px;
+      background-size: cover;
+      background-position: center;
+      background-repeat:  no-repeat;
+      
+     
+      margin-left: 300px;
+      margin-top: 70px;
+    }
+    #cl4{
+      height: 100px;
+      width: 200px;
+      background-color: rgb(209, 66, 14);
+      margin-left: 370px;
+      margin-top: -70px;
+      border-radius: 20px;
+      color: white;
+    
+    }
+    .cl5{
+      
+      height: 900px;
+      width: 600px;
+      margin-left: 370px;
+      margin-top: 70px;
+    }
+  
+  .but{
+    height: 70px;
+    width: 170px;
+    border-radius: 30px;
+     background-color: rgb(209, 66, 14);
+     color: white;
+     transition: all 0.4s ease-out;
+     overflow: hidden;
+    
+     
+
+  }
+  .but1:hover{
+   
+    transform: translateX(10px);
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+
+
+  }
+    .but:hover{
+  
+    background-color: black;
+    color: white;
+
+
+  }
+  .prof{
+    height: 200px;
+    max-width: 100%;
+    background-color: #2A6E6E;
+    display:flex ;
+  }
+  .p1
+  {
+    color: white;
+    margin-top: 50px;
+    margin-left: 170px;
+    font-size: 30px;
+  }
+  .pr{
+     height: 700px;
+    max-width: 100%;
+    background-color: #f7f4ef;;
+    position: relative;
+    
+  }
+  #s1{
+    color: rgb(255, 119, 0);
+    padding-left: 740px;
+    padding-top: 100px;
+    position: absolute;
+
+  }
+
+  #s2{
+     padding-left: 700px;
+     padding-top: 100px;
+     font-family: cursive;
+     font-size: 30px;
+     font-weight: 1000;
+    position: absolute;
+  }
+  .grid{
+       padding-top: 200px;
+     padding-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+  .s3{
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+    transition:  transform 0.2ms ease-out;
+  }
+  .s3:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out;
+  }
+  .s4{
+    padding-left: 20px;
+    position: absolute;
+  }
+  .a1{
+    height: 1500px;
+    max-width: 100%;
+
+  }
+  .a2{
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 100px;
+  }
+  #a3{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+    #a4{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+      position: absolute;
+    margin-top: 680px;
+    margin-left: 500px;
+  
+  }
+    #a5{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+    position: absolute;
+        margin-top: 900px;
+    margin-left: 1000px;
+  }
+    #a6{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+       position: absolute;
+    margin-top: 1200px;
+    margin-left: 500px;
+  }
+     #a7{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+     background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+      margin-top: 400px;
+    margin-left: 1000px;
+  }
+ .vertical-line{
+  border-left: 2px solid #333333;
+   height: 1270px;  
+   position: absolute;
+   margin-left: 800px;
+   margin-top: 200px;
+ }
+ #b1
+ {
+    position: absolute;
+   margin-left: 780px;
+   margin-top: 235px;
+   color: rgb(91, 24, 24);
+   font-size: 30px;
+ }
+  #b2
+ {
+    position: absolute;
+   margin-left: 780px;
+   margin-top: 425px;
+   color: rgb(91, 24, 24);
+   font-size: 30px;
+ }
+ 
+  #b3
+ {
+    position: absolute;
+   margin-left: 780px;
+   margin-top: 705px;
+   color: rgb(91, 24, 24);
+   font-size: 30px;
+ }
+ #b4
+ {
+    position: absolute;
+   margin-left: 780px;
+   margin-top: 975px;
+   color: rgb(91, 24, 24);
+   font-size: 30px;
+ }
+  #b5
+ {
+    position: absolute;
+   margin-left: 780px;
+   margin-top: 1265px;
+   color: rgb(91, 24, 24);
+   font-size: 30px;
+ }
+ .r{
+  height: 600px;
+  max-width: 100%;
+ }
+ .r2{
+  position: relative;
+  padding-top: 160px;
+  padding-left: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+ }
+ .r3{
+  height: 200px;
+  width: 370px;
+  background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0px   4px  8px  16px  rgba(0,0,0,0.1);
+    font-size: 15px;
+    transition:  transform 0.2ms ease-out;
+  }
+  .r3:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out;
+  }
+  .con{
+    background-color: #2A6E6E;
+    height: 300px;
+    max-width: 100%;
+  }
+</style>
+<body>
+
+    <div class="head"> <h1 id="tli"> About Us </h1> </div>
+
+   <div class="cl1">
+    <div class="cl2">
+      <div id="cl3"></div>
+      <div id="cl4">
+        <h1 style=" padding-left: 50px; padding-top: 10px;">10+ </h1> 
+    <h3 style=" padding-left: 5px;  margin-top: -20px; font-size: 19px; ">Years of Trusted Travel</h3>
+      </div>
+    </div>
+
+    <div  class="cl5" >   <span style="  font-weight: 900; font-size: 20px; color:  rgb(209, 66, 14) ;"> WHO WE ARE </span>  <br>
+  <spanx  style="  font-weight: 900; font-size: 30px; color:  black ;" >Your Trusted Partner for Sacred & Leisure Journeys</span> <br>
+ <span style="  font-weight: 300; font-size: 19px; ">Ananda Holidays was founded with a single purpose — to make travel meaningful. We specialise in devotional yatras, spiritual pilgrimages, and leisure tours across India and beyond, crafting every itinerary with care, comfort, and cultural sensitivity.
+  <br> <br>
+Based in Greater Noida, we have guided hundreds of families through life-changing journeys to the most sacred and scenic destinations — from the Char Dham peaks of Uttarakhand to the golden sands of Andaman, from the spiritual trails of Nepal to the vibrant markets of Dubai.
+</span> <br>
+   <span style="   font-weight: 300; font-size: 19px; "><i class="fa-solid fa-circle-check"></i> Expert-curated itineraries for every budget. <br>
+  <i class="fa-solid fa-circle-check"></i> Dedicated 24/7 on-trip support. <br>
+ <i class="fa-solid fa-circle-check"></i> Group discounts and family packages <br>
+ <i class="fa-solid fa-circle-check"></i> Transparent pricing, no hidden charges. <br> </span> <br>
+ <button class="but"> <div class="but1"> Get In Touch<i class="fa-solid fa-arrow-right"></i></div></button>
+   </div>
+      </div>
+    
+
+
+
+
+
+        <div class="prof">
+          <div class="p1">500+ <br>
+Happy Travelers</div>
+          <div class="p1" > 50+ <br>
+Destinations</div>
+          <div class="p1" >10+ <br>
+Years Experience</div>
+          <div class="p1" >200+ <br>
+Tours Completed</div>
+        </div>
+
+
+        <div class="pr">
+          <span id="s1">WHAT DRIVE US</span> <br>
+          <span id="s2">Our Core Values</span>
+          <div class="grid">
+            <div class="s3"><i class="fa-solid fa-heart" style="padding-left: 90px;  color: gold;  padding-top: 30px; position: absolute; font-size: 40px;"></i> <br><h2 style=" font-size: 20px ; font-weight: 1000;  padding-left: 40px; padding-top: 50px;">  Passion for Travel</h2> <br>
+           <span class="s4">Every journey we plan comes from a  <br>genuine love for exploraion and a <br> desire to share the world's wonders <br> with our guests.</span></div>
+            <div class="s3"> <i class="fa-solid fa-shield-heart" style="padding-left: 90px;  color: rgb(0, 255, 85);  padding-top: 30px; position: absolute; font-size: 40px;" ></i> <br> <h2 style=" font-size: 20px ; font-weight: 1000;  padding-left: 40px; padding-top: 50px; "> Trust & Transparency</h2> <br>
+          <span class="s4" >No hidden costs, no surprises. We <br> believe in honest communication and <br> building long-term relationships with <br> every traveler.</span></div>
+            <div class="s3" > <i class="fa-solid fa-person" style="padding-left: 90px;  color: rgb(255, 94, 0);  padding-top: 30px; position: absolute; font-size: 40px;"></i> <br><h2 style=" font-size: 20px ; font-weight: 1000;   padding-left: 40px; padding-top: 50px; "> People First </h2>  <br>
+         <span class="s4" >From solo pilgrims to large families, <br> every traveler receives the same  <br>personalized care and attention <br> throughout their journey.</span> </div>
+            <div class="s3"> <i class="fa-solid fa-certificate" style="padding-left: 90px;  color: rgb(0, 64, 255);  padding-top: 30px; position: absolute; font-size: 40px;"></i> <br><h2 style=" font-size: 20px ; font-weight: 1000;   padding-left: 40px; padding-top: 50px; ">  Quality Experience  </h2> <br>
+          <span class="s4" >We hand-pick every hotel, vehicle, and  <br>  guide to ensure each aspect of your <br> trip meets our high standards of  <br> comfort and safety.</span></div>
+          </div>
+        </div>
+
+
+        <div class="a1"> <div class="a2">
+<span>Our Journey</span> <br>
+<span>How We Grew</span></div>
+    <div class="vertical-line"></div>
+    <i class="fa-solid fa-circle" id="b1" ></i>
+      <div id="a3"><span style="color: brown; position: absolute ; padding-left: 60px; padding-top: 15px;">2013 </span><br>
+ <span style="color: black; padding-top: 25px; position: absolute; padding-left: 30px;">The Beginning</span> <br>
+<span style="color: black; padding-top: 30px; position: absolute; padding-left: 20px;">Ananda Holidays was founded in Greater Noida with a small team and a big dream — to make spiritual travel accessible and comfortable for every family.</div></span>
+    <i class="fa-solid fa-circle" id="b2"></i>   <div id="a7"> <span style="color: brown; position: absolute ; padding-left: 60px; padding-top: 15px;" >2015</span>  <br>
+<span style="color: black; padding-top: 25px; position: absolute; padding-left: 30px;" >First 100 Pilgrims</span> <br>
+<span style="color: black; padding-top: 30px; position: absolute; padding-left: 20px;" >We successfully completed our first Char Dham Yatra with 100+ pilgrims, setting the standard for devotional group travel.</div></span>
+    <i class="fa-solid fa-circle" id="b3"></i>    <div id="a4"><span style="color: brown; position: absolute ; padding-left: 60px; padding-top: 15px;" >2018</span> <br>
+<span style="color: black; padding-top: 25px; position: absolute; padding-left: 30px;" >Expanding Horizons</span> <br>
+<span style="color: black; padding-top: 30px; position: absolute; padding-left: 20px;" >We launched international tours to Nepal, Dubai, and South-East Asia, growing our portfolio beyond religious yatras.</div></span>
+    <i class="fa-solid fa-circle" id="b4"></i>     <div id="a5" > <span style="color: brown; position: absolute ; padding-left: 60px; padding-top: 15px;" >2021</span> <br>
+<span style="color: black; padding-top: 25px; position: absolute; padding-left: 30px;" >Digital Transformation</span> <br>
+<span style="color: black; padding-top: 30px; position: absolute; padding-left: 20px;" >Launched online booking and a dedicated customer support system, making it easier than ever to plan and book your dream journey.</span></div>
+    <i class="fa-solid fa-circle" id="b5"></i>      <div id="a6"> <span style="color: brown; position: absolute ; padding-left: 60px; padding-top: 15px;" >2024</span> <br>
+<span style="color: black; padding-top: 25px; position: absolute; padding-left: 30px;" > 500+ Happy Travelers </span><br>
+<span style="color: black; padding-top: 30px; position: absolute; padding-left: 20px;" >Crossed the milestone of 500 satisfied travelers and 200 completed tours across India and abroad. The journey continues.</div></span>
+            
+
+
+</div>
+
+<div class="r">
+  <div class="r1">     <h4 style="color: brown; position: absolute; padding-left: 700px; padding-top: 50px;">WHAT THEY SAY</h4>  <br>
+         <h1 style="color: rgb(13, 11, 11); position: absolute; padding-left: 630px; padding-top: 60px;">Traveler Testimonials</h1> </div>
+  <div class="r2">
+    <div class="r3"> <img src="5star.png" alt="" style="padding-left: 30px;"> <br><span style="position: absolute; padding-left: 10px; padding-top: 10pxpx;">"Our Char Dham Yatra with Ananda Holidays was <br> a life-changing experience. Every detail was <br> perfectly arranged — from hotels to puja darshan <br> timings. Highly recommended for any devotional <br> tour."  <br>
+    <div style=" height: 40px; width: 40px; border-radius: 50%; background-color: blueviolet; display: flex; justify-content: space-around;padding-top: 5px; margin-left: 30px;"> RK </div>  <span style="position: absolute; padding-left: 140px; margin-top: -40px;" >Rajesh Kumar</span>  <br>
+     
+ <span style="position: absolute; padding-left: 140px; margin-top: -40px; " > <i class="fa-solid fa-location-dot"></i> Delhi</span></span> </div>
+     <div class="r3"> <img src="5star.png" alt="" style="padding-left: 30px;"> <br><span style="position: absolute; padding-left: 10px; padding-top: 10pxpx;">"We booked the Andaman group tour for our <br> family of 8. The team was extremely supportive <br> throughout. The pricing was transparent and the <br> hospitality was wonderful. Will book again!"   <br> <br> 
+    <div style=" height: 40px; width: 40px; border-radius: 50%; background-color: rgb(43, 110, 226); display: flex; justify-content: space-around;padding-top: 7px; margin-left: 30px;"> PS </div>  <span style="position: absolute; padding-left: 140px; margin-top: -40px;" >Priya Sharma</span>  <br>
+     
+ <span style="position: absolute; padding-left: 140px; margin-top: -40px; " > <i class="fa-solid fa-location-dot"></i> Noida</span></span> </div>
+  <div class="r3"> <img src="4.5star.png" alt="" style="padding-left: 35px; padding-top: 10px;"> <br><span style="position: absolute; padding-left: 10px; padding-top: 10pxpx;">"The Dubai tour exceeded all expectations. <br> Professional guides, clean accommodation and <br> an action-packed itinerary. Ananda Holidays <br> made international travel feel easy and <br> affordable." <br>
+    <div style=" height: 40px; width: 40px; border-radius: 50%; background-color: rgb(226, 119, 43); display: flex; justify-content: space-around;padding-top: 5px; margin-left: 30px;"> AM </div>  <span style="position: absolute; padding-left: 140px; margin-top: -40px;" >Amit Mehta</span>  <br>
+     
+ <span style="position: absolute; padding-left: 140px; margin-top: -40px; " > <i class="fa-solid fa-location-dot"></i>Faridabad</span></span> </div> </div>
+
+</div>
+
+
+<div class="con">
+   <span style="position: absolute;  padding-left: 630px; color: white;"> <h1>Ready to Start Your Journey?</h1></span>
+   <span style="position: absolute;  padding-left: 630px; color: white; padding-top: 80px;" > Let us plan the perfect trip for you — devotional, leisure, or </span>. <br>
+   <span style="position: absolute;  padding-left: 690px; color: white; padding-top: 80px;" > adventure. Contact our travel experts today. </span>    <br>
+   <div style="display: flex; padding-left: 690px; color: white; padding-top: 80px;"> <button style="background-color: orange; margin-top: 20px; position: absolute; height: 50px; width: 140px; border-radius: 10px;
+   ">Explore Tours -> </button>  <button style="background-color: #2A6E6E; color: white; border: 2px solid white;   margin-top: 20px; margin-left: 150px; position: absolute; height: 50px; width: 140px; border-radius: 10px;">Contact Us</button> </div>
+</div>
+    <div style="height: 200px; max-width: 100% ;"> <img src="foot.png" alt=""> </div>
+    <div class="foot">
+<div class="in1">
+  <div class = "in2"> <h3>Location</h3> <br>
+  Ananda Holidays F-18, <br>
+Swarn Plaza, Block A,<br>
+Swarn Nagari, Greater Noida, 201310
+  </div>
+  <div class = "in2"><h3>Phone </h3> <br>
+
++91 9810611011 <br>
++91 9810611011 </div>
+  <div class ="in2"> <h3>Mail Us </h3> <br>
+anandaholidayssales@gmail.com <br>
+anandaholidayssales@gmail.com</div>
+</div>
+
+<div class="in3">
+  <div class="in4">
+    <img src="an.jpeg" alt="ananda" id="in"> <br>
+    Welcome to Ananda Holidays, your <br> ultimate gateway to unforgettable <br>
+     adventures. We specialize in curating the <br>
+      best travel experiences across the globe, <br>
+       ensuring you create lifelong memories.
+  </div>
+  <div class="in4">
+    <h4>Quick Links</h4> <br>
+    <a href="#">Home</a> <br> <br>
+    <a href="#">About Us</a> <br> <br>
+    <a href="#">Tours</a> <br> <br>
+    <a href="#">Destinations</a> <br> <br>
+    <a href="#">Contact</a><br> <br>
+  </div>
+  <div class="in4">
+     <h4>Popular Tours</h4> <br>
+     <a href="#">Do Dham Yatra</a><br> <br>
+    <a href="#">Char Dham Yatra</a> <br> <br>
+    <a href="#">Muktinath Yatra</a> <br> <br>
+    <a href="#">Pashupatinath Yatra</a><br> <br>
+    <a href="#">Jagannath Puri Darshan</a> <br> <br>
+  </div >
+  <div class="in4"> <h4>Gallery Post</h4> <br>
+     <div class = "imgal">
+      <div class="gal"></div>
+       <div class="gal"></div>
+        <div class="gal"></div>
+         <div class="gal"></div>
+          <div class="gal"></div>
+          <div class="gal"></div>
+     </div>
+     
+  </div>
+</div>
+</div>
+</body>
+</html>
