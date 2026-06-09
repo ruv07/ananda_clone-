@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+      body{
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+        .d1{
+            height: 500px;
+             max-width:  100%;
+            background-color: rgb(237, 235, 235);
+            display: grid;
+            grid-template-columns: 1fr 1fr  1fr ;
+            align-items: center;
+            padding-left: 130px;
+        }
+         .a1{
+        height: 200px;
+        width: 400px;
+        border-radius: 20px ;
+
+        background-color: aliceblue;
+        
+     }
+     
+        #d2{
+            height: 200px;
+            width: 400px;
+            background-image: url(im1.jpg) ;
+            background-size: cover;
+            background-position: center;
+             background-repeat: no-repeat;
+             border-radius: 20px ;
+             transition : transform  0.5s  ease-in-out ; 
+             
+        }
+    .a1 :hover{
+       transform: translateY(-10px);
+
+
+     }
+        #d3{
+             height: 200px;
+            width: 400px;
+            background-image: url(im2.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             border-radius: 20px ;
+             transition : transform  0.5s  ease-in-out ;
+             overflow: hidden;
+
+
+            
+
+        }
+   
+
+        #d4{
+             height: 200px;
+            width: 400px;
+            background-image: url(im3.jpg);
+             background-size: cover;
+             background-position: center;
+              background-repeat: no-repeat;
+              border-radius: 20px ;
+              transition : transform  0.5s  ease-in-out ;
+
+        }
+     
+
+     .a1{
+        height: 400px;
+        width: 400px;
+        border-radius: 20px ;
+
+        background-color: aliceblue;
+      
+        
+     }
+    
+     .ind{
+      
+      display: flex;
+      justify-content: space-between;
+     }
+     #check{
+        height: 200px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:  rgb(237, 235, 235);
+     }
+     .gr{
+        height: 500px;
+             max-width:  100%;
+           
+            display:flex;
+            align-items: center;
+            padding-left: 130px;
+            position: relative;
+            top: 100px;
+     }
+     #im1{
+         height: 300px;
+         width: 300px;
+         background-image: url("g1.jpg");
+         background-size: contain;
+         border-radius: 10px;
+     }
+     #im2{
+         height: 200px;
+         width: 200px;
+         background-image: url("g2.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative;
+          left: 200px;
+          border: 10px solid white;
+          z-index: 1;
+          top: -50px;
+          border-radius: 20px;
+         
+          
+     }
+     
+         #im3{
+         height: 150px;
+         width:  150px;
+         background-image: url("g3.jpg");
+         position: relative;
+         left : 50px;
+         z-index: 2;
+         top: -97px;
+         border : 10px solid white ;
+         border-radius: 20px;
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+     }
+  .gr2{
+    padding-left: 900px;
+    padding-top: 200px;
+  }
+ 
+  .gr1{
+    position: absolute; 
+    height: 400px;
+    width: 600px;
+    font-size: 20px;
+  }
+  .for{
+    max-width: 100%;
+    height: 900px;
+     background:  linear-gradient( rgba(0,0,0,0.6) , rgba(0,0,0,0.6))  , url("g4.jpg");
+ background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          top: 300px;
+     
+  }
+  .form{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    
+    background:  linear-gradient( rgba(0,0,0,0.6) , rgba(0,0,0,0.6));
+    opacity: 80%;
+    left: 250px;
+    top: 100px;
+  }
+
+  #l1{
+    color: white ;
+     font-size: 40px; 
+     font-family :cursive;
+     position: relative; 
+     left: 400px;
+    top: 20px; 
+  }
+  #l2
+  {
+    color: white ;
+     font-size: 30px; 
+     position: relative; 
+      left: 400px;
+    top: 20px; 
+  }
+  .l3{
+    height: 50px;
+    width: 500px;
+    gap: 27px;
+    
+  }
+ #ll{
+      display: grid;
+      grid-template-columns: 2fr 2fr ;
+       gap: 27px;
+       padding-left: 30px;
+ }
+  .img{
+    height: 500px;
+    max-width: 100%;
+
+
+  }
+  #i1{
+    height: 400px;
+    width: 300px;
+    background-image:url("i1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+  }
+  #i2{
+    height: 400px;
+    width: 300px;
+    background-image: url("i2.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+  }
+  #i3{
+    height: 400px;
+    width: 300px;
+    background-image: url("i3.jpg")  ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+  }
+  #i4{
+    height: 400px;
+    width: 300px;
+    background-image:  url("i4.jpg") ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+  }
+  .img{
+    margin-top: 500px;
+    display: grid;
+  position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+  .head{
+    height: 800px;
+    max-width: 100%;
+     background:  linear-gradient( rgba(0,0,0,0.6) , rgba(0,0,0,0.6))  , url("s1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   
+  
+    
+  }
+  #cloud
+  {
+     position: absolute;
+     top: 550px;
+     background-image: url("cloud.png");
+     background-size: cover;
+      width: 1900px;
+      height: 300px;
+  }
+  #aer{
+     position: absolute;
+     top: 500px;
+     background-image: url("are.png");
+     background-size: contain;
+     background-position: center;
+      width: 1200px;
+      height: 400px;
+      background-repeat:  no-repeat;
+      left: 200px;
+  }
+  #h1
+  {
+    
+    font-size: 80px;
+    font-weight: 1000;
+    position:  absolute;
+    top : 100px;
+    left: 400px;
+    color: white; 
+  }
+  #h2
+  {
+    
+    font-size: 80px;
+    font-weight: 1000;
+    position: absolute;
+    top : 210px;
+    left: 580px;
+    color: white; 
+  }
+  #p1{
+     position: absolute;
+    top : 360px;
+    left: 400px;
+    color: rgb(212, 210, 210); 
+    font-size: 20px;
+   
+  }
+  .cr1{
+    height: 600px;
+    max-width: 100%;
+    background-color: rgb(243, 243, 243);
+     display: flex; 
+  }
+  #cr3{
+    height: 500px;
+    width: 500px;
+    background-image: url("e1.png");
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   border-radius: 25px;
+   top: 50px;
+   left: 300px;
+  }
+  #c1{
+    font-family: cursive;
+    color:  rgb(236, 132, 95);
+    font-size: 40px;
+    position: relative;
+    top: 100px ;
+    left: 200px;
+  }
+    #c2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(14, 13, 13);
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    top:  100px ;
+    left: 200px;
+  }
+     #c3{
+    font-family :'Courier New', Courier, monospace ;
+    color:  rgb(14, 13, 13);
+   
+    position: relative;
+    top:  150px ;
+    left: 200px;}
+
+    .foot{
+      height: 900px;
+      max-width: 100%;
+      background-color:  #111315;
+      opacity: 98%;
+    }
+    .in1{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      position: relative;
+      margin-left: 350px;
+      
+      
+    }
+    .in2{
+      color: white;
+      position: relative;
+      margin-top: 100px;
+    }
+    .in3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      position: relative;
+      margin-top: 100px;
+      margin-left: 350px;
+    }
+    .in4{
+      color: white;
+    }
+    #in{
+      height: 100px;
+      width: 200px;
+      border-radius: 30px;
+      
+    }
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .gal{
+      background-image: url("g4.jpg");
+      height: 50px;
+      width: 50px;
+      background-size: cover;
+      background-position: centre;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+    }
+    .imgal
+    {
+      display: grid;
+      grid-template-columns: 0.6fr 0.6fr 0.6fr ;
+      position: relative;
+      height: 150px;
+      width: 200px;
+      overflow: hidden;
+    }
+    .hed{
+      width: 100vw;
+      height: 80px;
+      display:  flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+     gap: 900px;
+      border: 3px solid white;
+      align-items: center;
+     
+    }
+    .h1{
+      position: relative;
+      padding-left: -100px;
+    }
+    .a9{
+      margin-left: 30px;
+     
+    }
+    </style>
+</head>
+
+<body>
+  <div class = "head">  </div> <h1 id = "h1">Wander Freely, Travel </h1> <h1 id = "h2">with Ananda</h1> <br>
+
+       <p id="p1">Explore breathtaking destinations across India and beyond with Ananda Holidays - where every journey <br>
+is designed to inspire, refresh, and create lifelong memories.</p>
+ <div id="cloud"></div>
+  <div id = "aer"></div> 
+</div> 
+ <br><br><br>
+
+  <div class="cr1">
+    <div id="cr2">
+       <span id="c1">Wander. Discover. Live.</span> <br>
+       <span id="c2" >Creating Memories with <br> Beautiful Journeys</span> <br>
+       <span id="c3">Embark on sacred yatras and divine journeys with Ananda Holidays -
+        <br> your trusted partner for spiritual travel experiences that connect <br> heart, soul, and tradition</span> 
+    </div>
+
+      <div id="cr3"></div>
+</div>
+    <div class="d1">
+        <div class="a1"><div id="d2"> </div><div class="aa1" > <br><div>Dubai</div> <br> 
+        <div style="color: rgb(35, 109, 67); ">Dubai,<span style="color: rgb(35, 60, 109); ">Dubai</span></div><div class="ind"><div>5D/6N  <br> 05 Jan 2026</div><div style = "color: orangered;" 
+    >Rs 79,999/-</div></div> </div>
+     <button style="background-color: #2a6e6e; color: aliceblue  ;  width  : 400px ; height: 30px; border-radius: 20px;">View Details -> </button> </div>
+        
+        <div class="a1" ><div id="d3" ></div><div class="aa1" > <br><div>Dubai</div> <br> <div style="color: rgb(35, 109, 67);">Dubai</div><div style="color: black; opacity: 40%;">Dubai</div> 
+    <div class="ind"><div>5D/6N  <br> 05 Jan 2026</div><div style = "color: orangered;" 
+    >Rs 79,999/-</div></div>
+    </div>
+<button style="background-color: #2a6e6e; color: aliceblue  ;  width  : 400px ; height: 30px; border-radius: 20px;">View Details -> </button> </div> 
+       
+        <div class="a1"><div id="d4"> </div><div class="aa1" > <br><div>Dubai</div> <br> 
+        <div style="color: rgb(35, 109, 67); ">Dubai</div><div style="color: black; opacity: 40%;">
+            Dubai</div><div class="ind"><div>5D/6N  <br> 05 Jan 2026</div><div style = "color: orangered;" 
+    >Rs 79,999/-</div></div> </div>
+     <button style="background-color: #2a6e6e; color: aliceblue  ;  width  : 400px ; height: 30px; border-radius: 20px;">View Details -> </button> </div> </div>
+        
+     <div  id="check"> <button style=" height:  50px  ; width: 150px;  background-color: rgb(236, 132, 95); border-radius: 25px;"> Check All Tours </button></div>
+
+     <div class = "gr"> <div class="gr1"> <div style = "color: #f7921f; font-size: 20px; font-family :cursive; font-size: 50px;"  >Why Choose Us</div> 
+     <div><h3 font-size: 40px; >Turning Every Journey</h3>
+    <h3 font-size: 40px; >Into Beautiful</h3>
+<h3 font-size: 40px; >Memories</h3> <p>Embark on divine journeys and sacred pilgrimages with Ananda Holidays. Experience the spiritual beauty of India's holy destinations, connect with tradition, and create meaningful, memorable travel experiences.</p></div>
+    
+    </div>
+
+
+<div class = "gr2">
+    <div id="im1"> </div>
+    <div id="im2"></div>
+    <div id="im3"></div>
+</div></div>
+
+<div class = "for">
+     
+     <div> <form class="form">
+        <label id="l1"> Get in Touch</label> <br>
+      <label id="l2">With Our Travel Experts</label> <br><br><br><br>
+      <div id="ll">
+        <input type="text" placeholder="Your Name" class="l3" >
+        <input type="text" placeholder="Email Address" class="l3">
+       
+        <input type="text" placeholder="Your Phone" class="l3">
+       
+
+    <select class="l3">
+    <option>Select Tour </option>
+
+        <option>Dubai Tour</option>
+
+        <option>Maldives Tour</option>
+
+        <option>Bali Tour</option>
+
+        <option>Goa Tour</option>
+
+    </select> 
+    <input type="number" min="0"  max="20" class="l3"> 
+    <input type="number" min="0"  max="20" class="l3"> 
+
+</div>
+
+     </form></div>
+
+
+</div>
+<h1 style="color: black; font-family: cursive; position: relative ;   left: 700px;  top:  400px;">Follow Instagram</h1> 
+<div class="img"> 
+    <div id="i1"></div>
+    <div id="i2"></div>
+    <div  id="i3"></div>
+    <div id="i4"></div>
+</div>
+
+<div class="foot">
+<div class="in1">
+  <div class = "in2"> <h3>Location</h3> <br>
+  Ananda Holidays F-18, <br>
+Swarn Plaza, Block A,<br>
+Swarn Nagari, Greater Noida, 201310
+  </div>
+  <div class = "in2"><h3>Phone </h3> <br>
+
++91 9810611011 <br>
++91 9810611011 </div>
+  <div class ="in2"> <h3>Mail Us </h3> <br>
+anandaholidayssales@gmail.com <br>
+anandaholidayssales@gmail.com</div>
+</div>
+
+<div class="in3">
+  <div class="in4">
+    <img src="an.jpeg" alt="ananda" id="in"> <br>
+    Welcome to Ananda Holidays, your <br> ultimate gateway to unforgettable <br>
+     adventures. We specialize in curating the <br>
+      best travel experiences across the globe, <br>
+       ensuring you create lifelong memories.
+  </div>
+  <div class="in4">
+    <h4>Quick Links</h4> <br>
+    <a href="#">Home</a> <br> <br>
+    <a href="#">About Us</a> <br> <br>
+    <a href="#">Tours</a> <br> <br>
+    <a href="#">Destinations</a> <br> <br>
+    <a href="#">Contact</a><br> <br>
+  </div>
+  <div class="in4">
+     <h4>Popular Tours</h4> <br>
+     <a href="#">Do Dham Yatra</a><br> <br>
+    <a href="#">Char Dham Yatra</a> <br> <br>
+    <a href="#">Muktinath Yatra</a> <br> <br>
+    <a href="#">Pashupatinath Yatra</a><br> <br>
+    <a href="#">Jagannath Puri Darshan</a> <br> <br>
+  </div >
+  <div class="in4"> <h4>Gallery Post</h4> <br>
+     <div class = "imgal">
+      <div class="gal"></div>
+       <div class="gal"></div>
+        <div class="gal"></div>
+         <div class="gal"></div>
+          <div class="gal"></div>
+          <div class="gal"></div>
+     </div>
+     
+  </div>
+</div>
+</div>
+
+<div class="hed">
+  <div><img src="an.jpeg" alt="" style="height: 70px; width: 200px; border-radius: 20px;"></div>
+  <div class="h1">
+    <a class="a9" href="index.html">HOME </a>
+    <a class="a9"  href="tour.html">TOUR</a>
+    <a class="a9"  href="destination.html"> DESTINATIONS</a>
+    <a  class="a9" href="aboutus.HTML"> ABOUT US</a>
+    <a  class="a9" href="contactus.html" style="">CONTACT</a>
+    
+  </div>
+</div>
+</body>
+</html>
